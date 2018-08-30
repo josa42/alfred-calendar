@@ -1,0 +1,6 @@
+hash: 95d065786ec257a134e7c24a65d99017ff3d191508b0bdbc4c76f29ef11e63d1
+updated: 2018-08-29T10:28:12.264744+02:00
+imports:
+- name: github.com/deanishe/awgo
+  version: fda4e59dbe6936fed9f4864b8f45cd18ad2c933c
+testImports: []

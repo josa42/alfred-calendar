@@ -1,0 +1,4 @@
+package: github.com/josa42/alfrad-calendar
+import:
+- package: github.com/deanishe/awgo
+  version: ~0.15.0
