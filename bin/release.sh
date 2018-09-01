@@ -20,7 +20,7 @@ git commit -m "🎉  Release ${version}"
 git push
 
 zip -r "dist/calendar-${version}.alfredworkflow" . \
-  -x vendor\* .git\* bin\* glide.yaml dist\* README.md glide.lock \*.go
+  -x vendor\* .git\* bin\* glide.yaml dist\* README.md glide.lock \*.go docs\*
 
 git tag "${version}" && git push --tags
 

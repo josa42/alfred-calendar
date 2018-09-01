@@ -47,14 +47,13 @@ func (e Event) IsPast() bool {
 
 func init() {
 	wf = aw.New()
+	flag.BoolVar(&flagCheck, "check", false, "Check for a new version")
 }
 
 // Your workflow starts here
 func run() {
 	wf.Args()
 	flag.Parse()
-
-	flag.Parsed()
 
 	if flagCheck {
 		runCheck()
