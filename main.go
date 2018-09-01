@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/deanishe/awgo"
+	aw "github.com/deanishe/awgo"
 )
 
 const (

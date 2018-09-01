@@ -9,8 +9,8 @@ fi
 
 rm -rf dist && mkdir dist
 
-glide install
-go build main.go
+glide install || exit 1
+go build main.go || exit 1
 
 defaults write "$(pwd)/info.plist" version "${version}"
 plutil -convert xml1  "$(pwd)/info.plist"
